@@ -1,3 +1,17 @@
 #logo{
     width: 20%;
 }
+
+.imagemcarousel{
+
+    height: 70vh;
+    width: 100%;
+}
+
+#cards{
+    background-color: lightslategray;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0.5%
+}
+
