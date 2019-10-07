@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <title>Home</title>
 </head>
 <body>        
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top font-italic">
         <a class="navbar-brand" href="index.html">
-            <img id="logo" src="img/logo.jpg">
+            <img class="animated pulse infinite delay-1s" id="logo" src="img/logo.jpg">
         </a>
         <div class="collapse navbar-collapse " id="navbar">
           <ul class="navbar-nav barra">
@@ -63,7 +64,7 @@
         </a>
       </div>
 
-      <section id="cards">
+      <section class="animated fadeInLeft wow " id="cards">
       <div class="card-deck p-5">
         <div class="card">
           <img src="img/sonialirabanner.jpg" class="card-img-top p-1" alt="...">
@@ -87,12 +88,28 @@
           </div>
         </div>
       </div>
-      </section>    
+      </section>
+      
+      <footer class="footer">
+<div class="row">
+  <div class="col">
+<h3>Sobre</h3>
+  </div>
+
+  <div class="col">
+<h3>Entre em contato</h3>
+  </div>
+</div>
+
+<div class="text-center">Projeto web 3° trimestre</div>
+
+      </footer>
 
 <!--Javascript-->
 <script src="js/script.js"></script>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/popper.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
     
 </body>

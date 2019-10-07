@@ -12,11 +12,6 @@
     background-color: lightslategray;
 }
 
-#footer{
-    background-color: black;
-    color: white; 
-}
-
 .barra{
 position: absolute;
 right: 5em;
@@ -24,4 +19,14 @@ right: 5em;
 
 .margembarra{
     margin-top: 8%;
+}
+
+.footer{
+background-color: black;
+color: white;
+
+}
+.imagemblog{
+height: 50vh;
+width: 100%; 
 }
