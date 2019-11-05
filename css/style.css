@@ -32,6 +32,20 @@ color: white;
     margin-right: 2%;
 }
 
+.estrela{
+  width: 50%;
+  margin-left: 26%;
+  margin-top: 10%;
+}
+
+.textoavaliacao{
+  margin-bottom: 10%;
+}
+
+.estrelaavaliacao{
+  width: 10%;
+}
+
 *,
 *::before,
 *::after {
