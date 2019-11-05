@@ -12,6 +12,14 @@
     background-color: lightslategray;
 }
 
+#zankyou{
+  margin-top: 10%;
+}
+
+#casamentocom{
+  margin-top: 5%;
+}
+
 .barra{
 position: absolute;
 right: 5em;
