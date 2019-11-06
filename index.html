@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <title>Home</title>
 </head>
-<body>        
+<body>       
+  
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark font-italic">
         <a class="navbar-brand" href="index.html">
@@ -171,6 +174,28 @@
 <div class="text-center">Projeto web 3° trimestre</div>
 
       </footer>
+
+      <script>
+          
+          var mybutton = document.getElementById("myBtn");
+          
+          
+          window.onscroll = function() {scrollFunction()};
+          
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+            } else {
+              mybutton.style.display = "none";
+            }
+          }
+          
+          
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+          </script>
 
 <!--Javascript-->
 <script src="js/script.js"></script>
